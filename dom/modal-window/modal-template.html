@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./modal-template.css" />
+    <title>Modal window (template)</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <p  class="red">
+        Текст призывающий открыть модальное окно.
+      </p>
+        <p class="red">Откроем?</p>
+      <button class="btn" id="openOverlay">Открыть!</button>
+    </div>
+
+    <script type="html/template" id="overlayTemplate">
+      <div class="modal-container">
+        <a href="#" class="close">x</a>
+        <div class="content"></div>
+      </div>
+    </script>
+
+    <script src="./modal-template.js"></script>
+
+  </body>
+</html>
