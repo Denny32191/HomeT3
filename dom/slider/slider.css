@@ -2,18 +2,18 @@ a,
 a:visited,
 a:active,
 a:focus {
-  color: #0091d9;
+  color: #00d953;
   text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #ff6163;
+  color: #adff61;
 }
 
 .title {
-  color: #0091d9;
+  color: #d9002f;
   font-weight: bold;
   text-align: center;
   margin-top: 40px;
